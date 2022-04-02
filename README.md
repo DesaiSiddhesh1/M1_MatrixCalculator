@@ -5,7 +5,7 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI - Build Status Linux](https://github.com/DesaiSiddhesh1/M1_MatrixCalculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/DesaiSiddhesh1/M1_MatrixCalculator/actions/workflows/c-cpp.yml) [![C/C++ CI Build Status Windows](https://github.com/DesaiSiddhesh1/M1_MatrixCalculator/actions/workflows/c-cpp_windows.yml/badge.svg)](https://github.com/DesaiSiddhesh1/M1_MatrixCalculator/actions/workflows/c-cpp_windows.yml) |[![Code Quality - Static Code - Cppcheck](https://github.com/AkulaPranathi1/stepin_student-record-system/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/AkulaPranathi1/stepin_student-record-system/actions/workflows/cppcheck.yml)[![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/AkulaPranathi1/stepin_student-record-system/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/AkulaPranathi1/stepin_student-record-system/actions/workflows/CodeQuality_Dynamic.yml)|[![Unit Testing - Unity](https://github.com/DesaiSiddhesh1/M1_MatrixCalculator/actions/workflows/unity.yml/badge.svg?branch=main)](https://github.com/DesaiSiddhesh1/M1_MatrixCalculator/actions/workflows/unity.yml)|[![Contribution Check - Git Inspector](https://github.com/AkulaPranathi1/stepin_student-record-system/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/AkulaPranathi1/stepin_student-record-system/actions/workflows/gitinspector.yml)
+[![C/C++ CI - Build Status Linux](https://github.com/DesaiSiddhesh1/M1_MatrixCalculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/DesaiSiddhesh1/M1_MatrixCalculator/actions/workflows/c-cpp.yml) [![C/C++ CI Build Status Windows](https://github.com/DesaiSiddhesh1/M1_MatrixCalculator/actions/workflows/c-cpp_windows.yml/badge.svg)](https://github.com/DesaiSiddhesh1/M1_MatrixCalculator/actions/workflows/c-cpp_windows.yml) [![Code Quality - Static Code Cppcheck](https://github.com/DesaiSiddhesh1/M1_MatrixCalculator/actions/workflows/c-cppcheck.yml/badge.svg)](https://github.com/DesaiSiddhesh1/M1_MatrixCalculator/actions/workflows/c-cppcheck.yml)[![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/AkulaPranathi1/stepin_student-record-system/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/AkulaPranathi1/stepin_student-record-system/actions/workflows/CodeQuality_Dynamic.yml)|[![Unit Testing - Unity](https://github.com/DesaiSiddhesh1/M1_MatrixCalculator/actions/workflows/unity.yml/badge.svg?branch=main)](https://github.com/DesaiSiddhesh1/M1_MatrixCalculator/actions/workflows/unity.yml)|[![Contribution Check - Git Inspector](https://github.com/AkulaPranathi1/stepin_student-record-system/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/AkulaPranathi1/stepin_student-record-system/actions/workflows/gitinspector.yml)
 
 ## Folder Structure
 Folder             | Description
@@ -19,7 +19,7 @@ Folder             | Description
 Features
 |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 |----------------|----------------|---------------|-------------|--------------
-| F_01, F_02, F_03, F_04, F_05, F_06, F_07   | None    | None   |7  |7    
+| F_01, F_02, F_03, F_04, F_05, F_06   | None    | None   |6  |6    
 
 | Feature Id | Feature |
 | -----------|---------|
