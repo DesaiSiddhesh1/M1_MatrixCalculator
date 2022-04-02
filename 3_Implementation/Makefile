@@ -6,10 +6,10 @@ DOC = doc
 
 # All source code files
 SRC = main.c\
-src/operations.c
+src/operation.c
 
 # All test source files
-TEST_SRC = src/operations.c\
+TEST_SRC = src/operation.c\
 test/test_matrix_operations.c\
 unity/unity.c\
 
