@@ -19,7 +19,7 @@ Folder             | Description
 Features
 |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 |----------------|----------------|---------------|-------------|--------------
-| F_01, F_02, F_03, F_04, F_05, F_06   | None    | None   |6  |6    
+| F_01, F_02, F_03, F_04, F_05, F_06, F07  | None    | None   |7  |7    
 
 | Feature Id | Feature |
 | -----------|---------|
