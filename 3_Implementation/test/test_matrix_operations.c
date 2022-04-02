@@ -82,10 +82,10 @@ void test_addition_matrices(void)
   test_matrices1[1][0] = 3;
   test_matrices1[1][1] = 4;
 
-  test_matrices2[0][0] = 5;
-  test_matrices2[0][1] = 6;
-  test_matrices2[1][0] = 7;
-  test_matrices2[1][1] = 8;
+  test_matrices2[0][0] = 1;
+  test_matrices2[0][1] = 2;
+  test_matrices2[1][0] = 3;
+  test_matrices2[1][1] = 4;
 
   TEST_ASSERT_EQUAL(SUCCESS, add_matrices(test_matrices1, test_matrices2, 2));
 
@@ -110,10 +110,10 @@ void test_subtract_matrices(void)
   test_matrices1[1][0] = 4;
   test_matrices1[1][1] = 6;
 
-  test_matrices2[0][0] = 7;
-  test_matrices2[0][1] = 5;
+  test_matrices2[0][0] = 1;
+  test_matrices2[0][1] = 2;
   test_matrices2[1][0] = 3;
-  test_matrices2[1][1] = 1;
+  test_matrices2[1][1] = 4;
 
   TEST_ASSERT_EQUAL(SUCCESS, subtract_matrices(test_matrices1, test_matrices2, 2));
 
@@ -137,10 +137,10 @@ void test_multiply_matrices(void)
   test_matrices1[1][0] = 3;
   test_matrices1[1][1] = 4;
 
-  test_matrices2[0][0] = 5;
-  test_matrices2[0][1] = 6;
-  test_matrices2[1][0] = 7;
-  test_matrices2[1][1] = 8;
+  test_matrices2[0][0] = 1;
+  test_matrices2[0][1] = 2;
+  test_matrices2[1][0] = 3;
+  test_matrices2[1][1] = 4;
 
   TEST_ASSERT_EQUAL(SUCCESS, product_matrices(test_matrices1, test_matrices2, 2));
 
@@ -160,10 +160,10 @@ void test_determinant_matrices(void)
 
   test_matrices1[0][0] = 5;
   test_matrices1[0][1] = 3;
-  test_matrices1[1][0] = 2;
+  test_matrices1[1][0] = 5;
   test_matrices1[1][1] = 4;
 
-  TEST_ASSERT_EQUAL(7.0000, determinant(test_matrices1, 2));
+  TEST_ASSERT_EQUAL(5.0000, determinant(test_matrices1, 2));
 
   free(test_matrices1);
 }
@@ -174,6 +174,7 @@ void test_pow(void)
   TEST_ASSERT_EQUAL(1, power(2));
   TEST_ASSERT_EQUAL(-1, power(3));
 }
+
 void test_transpose_matrices(void)
 {
   float **test_matrices1;
@@ -189,6 +190,7 @@ void test_transpose_matrices(void)
   test_matrices1[1][0] = 1;
   test_matrices1[1][1] = 5;
   test_matrices1[1][2] = 8;
+  test_matrices1[2][0] = 3;
   test_matrices1[2][0] = 3;
   test_matrices1[2][1] = 9;
   test_matrices1[2][2] = 2;
