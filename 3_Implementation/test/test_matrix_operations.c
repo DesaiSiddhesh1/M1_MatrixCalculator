@@ -174,7 +174,7 @@ void test_pow(void)
   TEST_ASSERT_EQUAL(1, power(2));
   TEST_ASSERT_EQUAL(-1, power(3));
 }
-void test_transp_mat(void)
+void test_transpose_matrices(void)
 {
   float **test_matrices1;
   test_matrices1 = (float **)calloc(3, sizeof(float));

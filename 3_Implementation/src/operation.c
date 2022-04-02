@@ -2,9 +2,8 @@
  * @file operation.c
  * @brief  This is the source code which contains all the functions for the project
  * @version 0.1
- * @date 2021-04-15
+ * @date 2022-03-25
  *
- * @copyright Copyright (c) 2021
  *
  */
 #include "matrix_operations.h"
@@ -93,7 +92,7 @@ void output_matrix(float **matrix, int n)
  * @param matrix1
  * @param matrix2
  * @param n
- * @return error_t
+ * @return float
  */
 float add_matrices(float **matrix1, float **matrix2, int n)
 {
@@ -125,7 +124,7 @@ float add_matrices(float **matrix1, float **matrix2, int n)
  * @param matrix1
  * @param matrix2
  * @param n
- * @return error_t
+ * @return float
  */
 float subtract_matrices(float **matrix1, float **matrix2, int n)
 {
@@ -155,7 +154,7 @@ float subtract_matrices(float **matrix1, float **matrix2, int n)
  * @param matrix1
  * @param matrix2
  * @param n
- * @return error_t
+ * @return float
  */
 float product_matrices(float **matrix1, float **matrix2, int n)
 {
@@ -243,7 +242,7 @@ float determinant(float **matrix, int k)
  *
  * @param matrix
  * @param n
- * @return error_t
+ * @return float
  */
 float transpose(float **matrix, int n)
 {
