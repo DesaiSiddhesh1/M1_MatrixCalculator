@@ -14,26 +14,19 @@ Folder             | Description
 `2.Design`         | Documents specifying design details
 `3_Implementation` | All code and documentation
 `4.Test_plan`      | Documents with test plans and procedures
-
+`5.Report`         | Updated Readme files of all Components
+`6. Images`        | Contains Images of Project
 
 Features
 |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 |----------------|----------------|---------------|-------------|--------------
-| F_01, F_02, F_03, F_04, F_05, F_06, F07  | None    | None   |7  |7    
+| F_01, F_02, F_03, F_04, F_05, F_06  | None    | None   |6  |6    
 
 | Feature Id | Feature |
 | -----------|---------|
-|F_01| Options to select matrix operation|
-|F_02| Operations on two matrices such as addition, subtraction and multiplication are included|
-|F_03| Single matrix operations such as determinant, transpose and inverse of a matrix |
-|F_04| Separate function for each operation |
+|F_01| Options to select matrix calculation|
+|F_02| Calculation on two matrices such as addition, subtraction and multiplication are implemented|
+|F_03| Single matrix operations such as determinant, transpose of matrix |
+|F_04| Separate function for each component |
 |F_05| A structure has been implemented for storing the matrices|
 |F_06| Dynamic memory allocation and deallocation has been implemented for the matrices|
-|F_07|  There is no upper limit for the size of the matrix|
-
-## Challenges Faced and How Was It Overcome
-
-| No. | Challenge | Solution
-|-----|-----------|--------
-|1. | Dynamic memory allocation of 2D arrays created segmentation faults| running the code in GDB helped find the line where the program crashes
-|2. | Program crashes | Writing clean code with allocating and deallocating memory at all functions as per requirement|
