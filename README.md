@@ -10,12 +10,12 @@ Build | Code Quality | Unity | Code Quality using CodeInspector(Codiga)
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
-`1.Requirements`   | Documents detailing requirements and research
-`2.Design`         | Documents specifying design details
+`1_Requirements`   | Documents detailing requirements and research
+`2_Design`         | Documents specifying design details
 `3_Implementation` | All code and documentation
-`4.Test_plan`      | Documents with test plans and procedures
-`5.Report`         | Updated Readme files of all Components
-`6. Images`        | Contains Images of Project
+`4_Test_plan`      | Documents with test plans and procedures
+`5_Report`         | Updated Readme files of all Components
+`6_Videos`         | Contains Videos and Images of Project
 
 Features
 |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
