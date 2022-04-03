@@ -1,5 +1,6 @@
 /**
  * @file matrix_operations.h
+ * @author Siddhesh Desai
  * @brief A program to perform operation on Matrices
  * @version 0.1
  * @date 2021-03-21
@@ -108,7 +109,7 @@ float determinant(float **matrix, int k);
  *
  * @param matrix
  * @param n
- * @return error_t
+ * @return float
  */
 float transpose(float **matrix, int n);
 

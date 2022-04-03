@@ -1,8 +1,9 @@
 /**
- * @file project_main.c
+ * @file main.c
+ * @author Siddhesh Desai
  * @brief  This is the main program where the project is run
  * @version 0.1
- * @date 2021-04-15
+ * @date 2022-03-21
  *
  * @copyright Copyright (c) 2021
  *
